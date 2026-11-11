@@ -111,7 +111,7 @@ Open http://127.0.0.1:8000.
 | `DEBUG` | No | `True` for local development |
 | `ALLOWED_HOSTS` | No | Defaults to `localhost,127.0.0.1` |
 | `GEMINI_API_KEY` | For the chatbot | Free key from [Google AI Studio](https://aistudio.google.com/app/apikey). Without it, the rest of the app still works. |
-| `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD` | For real emails | Gmail address and an App Password. Without them, remove the `EMAIL_BACKEND` line from `.env` and emails are printed to the console in debug mode. |
+| `EMAIL_HOST_USER`, `EMAIL_HOST_PASSWORD` | For real emails | Gmail address and an App Password. Without them, emails are printed to the console in debug mode. |
 
 > Video calls need camera and microphone permission, and browsers only allow them on `localhost` or HTTPS.
 
